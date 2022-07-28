@@ -99,3 +99,7 @@ I'm Wijnand, I started freelancing with Full Stack Typescript about 5 years ago.
 ### When are you going?
 
 I'm still figuring that out! First please let me know your window of when you would be able to join me. If I have enough information about the group, I'll make a plan and share it with the people that fit the aim of this bootcamp
+
+### Why Typescript?
+
+Typescript is a variant of Javascript that makes it much easier to write high-quality code. It is very easy to learn and it is a single programming language that can be used to make almost anything (websites, apps, browser plugins, VR/AR, backends, servers, even whole operating systems have been built with it)! This is why it's the perfect language, in my opinion, especially for beginners that want to keep all options open.
