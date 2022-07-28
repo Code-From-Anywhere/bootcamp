@@ -103,3 +103,13 @@ I'm still figuring that out! First please let me know your window of when you wo
 ### Why Typescript?
 
 Typescript is a variant of Javascript that makes it much easier to write high-quality code. It is very easy to learn and it is a single programming language that can be used to make almost anything (websites, apps, browser plugins, VR/AR, backends, servers, even whole operating systems have been built with it)! This is why it's the perfect language, in my opinion, especially for beginners that want to keep all options open.
+
+### How many people are coming?
+
+We got quite some people interested in this via this facebook post. Besides that I've tried to find people in many other ways. It's quite difficult to find people who can really DO IT, though. I think we mostly rely on people sharing it with their friends that they know could be a good fit, as it's hard to find people that would fit the picture.
+
+![](./fbpost.png)
+
+That said, I'm talking to a couple of dozen of interested people (FROM ALL OVER THE WORLD, Mexico, USA, Europe, Africa), and hope to come up with a planning soon to make this happen!
+
+Besides the students that will follow the bootcamp, a couple of Nepalese programmers will join as well, as I'm working with them!
