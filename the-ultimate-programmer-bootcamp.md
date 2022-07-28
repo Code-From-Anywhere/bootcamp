@@ -34,10 +34,13 @@ In 1-3 months you'll become skilled enough to apply for freelance jobs you can d
 - In this bootcamp you'll learn how to earn **€10k+ per month** in a matter of months
 - The bootcamp is 100% FREE
 - You are responsible for your own costs. That means the following:
+  - travel (flight, bus rides, jeep rides)
+  - insurance, visa, permit
   - food
-  - travel
-  - stay
+  - lodging
   - other
+
+In practice, you can expect to spend a minimum of 1000€ on fixed costs (flights, domestic travel, visa, permits, insurances) and to spend a minimum of €300 per month on food and lodging.
 
 I'm doing this for free, but if you end up finding a job and make a lot of money as a result of this bootcamp, I would appreciate a monetary gift. The size of this gift is up to you, but please know that normal bootcamps like this cost about €10k or more. I will not require any money because this is the first bootcamp I organise.
 
