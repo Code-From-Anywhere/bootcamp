@@ -89,3 +89,9 @@ Like you can see in the [roadmap](#roadmap), the program takes up to 3 months to
 ### Why offline?
 
 For the past year I've been working on downloading lots of information from the internet into my own machine, so I don't need internet to "google" things. I basically have a huge knowledge base for things that you'd need as a junior dev, that's what makes it possible to go completely offline. This way we can still search information, but we are not going to be distracted by things like YouTube and Social Media.
+
+### Who are you?
+
+I'm Wijnand, I started freelancing with Full Stack Typescript about 5 years ago. Before that I did PHP for over 10 years. I also studied AI, but I know more about Typescript now. I love travel, kitesurf, mountains and adventure. That's why I only work remote nowadays. Last year I started with my own [dev agency](https://codefromanywhere.com/), where I work together with 2 devs from brazil and 3 devs from nepal on multiple projects. We stopped most client work and now we're going to build our own products (and this bootcamp is one of them)! :D
+
+![](./cfa-team.jpeg)
