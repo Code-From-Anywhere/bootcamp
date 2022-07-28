@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>the-ultimate-programmer-bootcamp.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="code-from-anywhere-bootcamp">Code from Anywhere Bootcamp</h1>
+<p><img src="./code-from-himalaya.jpeg" alt="Me coding from the Himalaya"></p>
+<h2 id="learn-how-to-love-coding">Learn how to love coding</h2>
+<ul>
+<li>You take your laptop and camping/survival gear and join me where ever I am. This is mostly somewhere in the mountains and almost always in nature.</li>
+<li>You join me and the other programmers and students. Ideally, minimum one month, but any amount of time is possible.</li>
+<li>You go completely offline, all needed data and information will be provided via flashdrives. <strong>Detox your Internet usage, Drown in Typescript</strong></li>
+<li>You will be immersed with programming things 24/7 while only being behind your screen up to 12 hours a day. The rest is done in other creative ways...</li>
+<li>In a matter of weeks your skills will fly through the roof</li>
+<li>You're not allowed to do anything unrelated to the bootcamp. The rules are very strict, which enforce a quick and steady learning curve.</li>
+</ul>
+<h2 id="roadmap">Roadmap</h2>
+<p>The bootcamp consists of multiple sections, which can be done one by one, but you can also choose to do multiple sections at the same time.</p>
+<ul>
+<li>
+<p><strong>Beginner</strong>: You'll learn the basics of web development (JSON, Markdown, HTML, CSS, Bash) <strong>Time required: 2-4 weeks</strong></p>
+</li>
+<li>
+<p><strong>Frontend</strong>: You'll learn how to make professional frontends (Git, React, Typescript, Data Storage Methods, Tailwind, packages, configs, deployment) <strong>Time required: 2-4 weeks</strong></p>
+</li>
+<li>
+<p><strong>Full stack</strong>: You'll learn full stack development and make complete apps from stratch (Node.js, react with native, cloud server deployment, databases, security) <strong>Time required: 4-6 weeks</strong></p>
+</li>
+<li>
+<p><strong>Wizard stuff</strong>: You'll learn advanced concepts and practices to become the best in your field (Decentralised architectures, automation, metascripting, typescript introspection, conventions and standards, etc. etc.) <strong>Time required: ∞</strong></p>
+</li>
+<li>
+<p><strong>Networking</strong>: You'll learn how to build a network, how to find freelance opportunities, and how to shine in the interview processes <strong>Time required: 80-160 hours, divided over your bootcamp</strong></p>
+</li>
+<li>
+<p><strong>Adventure</strong>: You'll learn how to live a travel lifestyle full of adventures</p>
+</li>
+</ul>
+<p>In 1-3 months you'll become skilled enough to apply for freelance jobs you can do from anywhere. Within a year you'll be able to work in a very international setting and earn a good freelancer salary (depends on your region, but much higher than your regional average)</p>
+<h2 id="costs">Costs</h2>
+<ul>
+<li>In this bootcamp you'll learn how to earn <strong>€10k+ per month</strong> in a matter of months</li>
+<li>The bootcamp is 100% FREE</li>
+<li>You are responsible for your own costs. That means the following:
+<ul>
+<li>food</li>
+<li>travel</li>
+<li>stay</li>
+<li>other</li>
+</ul>
+</li>
+</ul>
+<p>I'm doing this for free, but if you end up finding a job and make a lot of money as a result of this bootcamp, I would appreciate a monetary gift. The size of this gift is up to you, but please know that normal bootcamps like this cost about €10k or more. I will not require any money because this is the first bootcamp I organise.</p>
+<p>To back up my statement about the earnings, <a href="./earnings-132k-6months.png">this is what I earned while coding from anywhere the last months</a></p>
+<h2 id="program">Program</h2>
+<p>Like you can see in the <a href="#roadmap">roadmap</a>, the program takes up to 3 months total. The daily life looks a bit like this:</p>
+<ul>
+<li>In the morning we enjoy a nice breakfast in the guesthouse we stay in</li>
+<li>In the day we code (9-1pm and 2-6pm). This is your individual focus-time, for everyone</li>
+<li>In the evening sometimes there can be presentations and coaching sessions, but mostly it's chill</li>
+<li>Whenever you like, you can go hiking (alone or with others)</li>
+</ul>
+<h2 id="location">Location</h2>
+<ul>
+<li>We'll stay in a village at at an altitude of 3000 to 3750 meters. This is quite high, so make sure you do some research about acclomitisation</li>
+<li>There will be electricity, but maybe not in your room</li>
+<li>There will be internet, but we choose not to use it most of the time</li>
+<li>There will be a way of communication in emergencies, both ways</li>
+<li>There will be breakfast, lunch, and dinner available in the guesthouse we stay</li>
+<li>The guesthouse will be relatively comfortable, but still quite basic compared to western standards. WE are in the mountains of nepal, this is no luxury hotel you're going.</li>
+</ul>
+<h2 id="expecations">Expecations</h2>
+<ul>
+<li>I'm providing material via a printed and/or digital book or books. This material is everything you need to know about full stack typescript. Part of it is a course about it I've made myself. Other parts include documentation of much used libraries.</li>
+<li>I'm not going to run around answering your questions and fixing your bugs the whole day. My responsibility is bringing together a community in a strict bootcamp-setting and cool environment. In the evenings I relax and we can talk, and sometimes then I'll explain things about typescript and the topics of the bootcamp, but this is not something you should expect on a daily basis.</li>
+<li>You need to bring your laptop, preferably a Mac, and preferably one that can be charged with powerbanks (also bring powerbanks). If you have a mac, no need to worry about having the right programs. If you have no mac, please make sure you install the basic things needed to code (VSCode, Node.js, NPM, etc.)</li>
+<li>I expect you to be a self-starter not needing to be chased to do his work and reach his/her goal. If you don't have motivation to become a super good programmer, please don't join the bootcamp.</li>
+</ul>
+<h2 id="what-i-need-to-know-about-you">What I need to know about you</h2>
+<ul>
+<li>what's your experience with coding?</li>
+<li>what's your education?</li>
+<li>what's your work experience?</li>
+<li>where were you born, where have you lived, and where do you live now?</li>
+<li>what has been your biggest adventure?</li>
+<li>what's your dream? your goal? your mission?</li>
+<li>what's your max. budget for this bootcamp?</li>
+<li>What's your time buffer before you need to get a job in full stack software development?</li>
+<li>do you want to participate 3 months, full time?</li>
+<li>would you be able to go all in? so no other things on the side?</li>
+<li>are you able to go fully offline for 3 months? (max 1x per week internet + calls would still be possible). Of course, you can get mobile reception straight away in emergencies. We can also have a landline phone number so anyone can reach you in case of something urgent</li>
+<li>where can I reach you? Phone number, whatsapp, email? should I add you to my slack community?</li>
+<li>When would you be able to join? What would be the first possible date, and what would be the last?</li>
+</ul>
+
+</body>
+</html>

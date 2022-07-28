@@ -83,3 +83,9 @@ Like you can see in the [roadmap](#roadmap), the program takes up to 3 months to
 - are you able to go fully offline for 3 months? (max 1x per week internet + calls would still be possible). Of course, you can get mobile reception straight away in emergencies. We can also have a landline phone number so anyone can reach you in case of something urgent
 - where can I reach you? Phone number, whatsapp, email? should I add you to my slack community?
 - When would you be able to join? What would be the first possible date, and what would be the last?
+
+## faq
+
+### Why offline?
+
+For the past year I've been working on downloading lots of information from the internet into my own machine, so I don't need internet to "google" things. I basically have a huge knowledge base for things that you'd need as a junior dev, that's what makes it possible to go completely offline. This way we can still search information, but we are not going to be distracted by things like YouTube and Social Media.
