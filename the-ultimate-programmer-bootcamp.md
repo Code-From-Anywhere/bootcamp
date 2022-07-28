@@ -95,3 +95,7 @@ For the past year I've been working on downloading lots of information from the 
 I'm Wijnand, I started freelancing with Full Stack Typescript about 5 years ago. Before that I did PHP for over 10 years. I also studied AI, but I know more about Typescript now. I love travel, kitesurf, mountains and adventure. That's why I only work remote nowadays. Last year I started with my own [dev agency](https://codefromanywhere.com/), where I work together with 2 devs from brazil and 3 devs from nepal on multiple projects. We stopped most client work and now we're going to build our own products (and this bootcamp is one of them)! :D
 
 ![](./cfa-team.jpeg)
+
+### When are you going?
+
+I'm still figuring that out! First please let me know your window of when you would be able to join me. If I have enough information about the group, I'll make a plan and share it with the people that fit the aim of this bootcamp
