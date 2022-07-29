@@ -120,3 +120,7 @@ Besides the students that will follow the bootcamp, a couple of Nepalese program
 ### How can I apply?
 
 Please send the answers to all above questions to bootcamp@karsens.com or in any other medium you are communicating with me, if already. I will review all applications together before having an introduction call with everyone that I think aligns with the intended goal of this bootcamp.
+
+Let's fly to Nepal
+
+![](./bird.jpeg)
