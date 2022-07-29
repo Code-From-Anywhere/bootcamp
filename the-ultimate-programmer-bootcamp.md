@@ -116,3 +116,7 @@ We got quite some people interested in this via this facebook post. Besides that
 That said, I'm talking to a couple of dozen of interested people (FROM ALL OVER THE WORLD, Mexico, USA, Europe, Africa), and hope to come up with a planning soon to make this happen!
 
 Besides the students that will follow the bootcamp, a couple of Nepalese programmers will join as well, as I'm working with them!
+
+### How can I apply?
+
+Please send the answers to all above questions to bootcamp@karsens.com or in any other medium you are communicating with me, if already. I will review all applications together before having an introduction call with everyone that I think aligns with the intended goal of this bootcamp.
