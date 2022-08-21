@@ -44,7 +44,7 @@ In practice, you can expect to spend a minimum of 1000€ on fixed costs (flight
 
 I'm doing this for free, but if you end up finding a job and make a lot of money as a result of this bootcamp, I would appreciate a monetary gift. The size of this gift is up to you, but please know that normal bootcamps like this cost about €10k or more. I will not require any money because this is the first bootcamp I organise.
 
-To back up my statement about the earnings, [this is what I earned while coding from anywhere the last months](./earnings-132k-6months.png)
+To back up my statement about the earnings, [this is what I earned while coding from anywhere the last months](./earnings-132k-6months.png). At the highest point I as scraping in more than €30.000,- in a month by juggling 5 clients (and 80+ hours a week) for frontend and full stack development.
 
 ## Program
 
